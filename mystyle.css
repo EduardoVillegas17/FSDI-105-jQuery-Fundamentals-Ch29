@@ -15,12 +15,12 @@ body{
 }
 .site-init h1{
     font-weight: 300;
-}
+} 
 nav a{
     color: black;
     text-decoration: none;
     margin-right: 2rem;
-}
+} 
 main{
     display: flex;
     flex-direction: column;
@@ -53,14 +53,14 @@ button{
     background-color: white;
 }
 /* this is for register page */
-.site-register{
+/* .site-register{
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 10vh;
     background-color: #d03000;
     color: black;
-}
+} */
 .form-container{
     display: flex;
     flex-direction: column;
