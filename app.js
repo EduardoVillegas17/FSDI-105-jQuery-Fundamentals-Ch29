@@ -39,22 +39,17 @@ function isValid(user){
         alert("please complete all fields");
         $("input").addClass("input-error");
     }
+    if(user.address.length==0){
+        valid=false;
+        alert("please complete all fields");
+        $("input").addClass("input-error");
+    }
     if(user.pnumber.length==0){
         valid=false;
         alert("please complete all fields");
         $("input").addClass("input-error");
     }
     if(user.payment.length==0){
-        valid=false;
-        alert("please complete all fields");
-        $("input").addClass("input-error");
-    }
-    if(user.color.length==0){
-        valid=false;
-        alert("please complete all fields");
-        $("input").addClass("input-error");
-    }
-    if(user.address.length==0){
         valid=false;
         alert("please complete all fields");
         $("input").addClass("input-error");
