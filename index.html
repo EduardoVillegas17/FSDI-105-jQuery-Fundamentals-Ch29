@@ -34,11 +34,16 @@
               </nav>
     </header>
     <main >
-        <div class="form-cotainer">
-            <label>Login</label>
-            <input type="text" id="txtUserName" placeholder="Enter your name">
-            <input type="text" id="txtPassword" placeholder="Enter your password">
-            <button>Login</button>
+      <p class="alert-error" id="alertError">
+        Invalid credentials!!!
+      </p>
+        <div>
+            <label>Username</label>
+            <input type="username" id="txtEmail" placeholder="Enter your name">
+            <label>Password:</label>
+            <input  type="password" id="txtPassword" placeholder="Enter your password">
+            <button id="btnLogin">Login</button>
+            <a href="register.html">Not a user?</a>
         </div>
         <!-- <div>
             <label for="gender">Female</label>
@@ -46,16 +51,15 @@
             <label for="gender">Male</label>
             <input type="radio" name="gender">
         </div> -->
-
+        <header class="site-init">
+          <h1></h1>
+        </header>
     </main>
     
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="storeManager.js"></script>
     <script src="app.js"></script>
-    <script src=""></script>
-    <script src=""></script>
-    <script src=""></script>
-    <script src=""></script>
+    <script src="login.js"></script>
+    <script src="storeManager.js"></script>
 </body>
 </html>
